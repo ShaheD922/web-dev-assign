@@ -262,8 +262,7 @@ text-align: center;
     display: flex;
     justify-content: space-between;
     align-items: flex-end;
-    flex-direction: column;
-    gap: 40px;
+    gap: 50px;
 
 
 }
@@ -278,6 +277,7 @@ text-align: center;
 
     display: flex;
     justify-content: flex-end;
+   
 }
  .form-two{
     
@@ -287,4 +287,37 @@ text-align: center;
     gap: 10px;
    width: 100%;
    max-width: 400px;}
+.btn-primary:hover{
+       background-color: #0f0fdd;
+       cursor: pointer;
+}
 
+/* footer */
+
+.footer{
+
+    display: flex;
+    text-align: center; 
+       justify-content: space-around;
+gap: 10px;
+}
+.footer-content{
+
+
+    max-width: 800px;
+}
+.footer-link{
+    display: flex;
+    justify-content: center;
+ margin-top: 15px;
+ gap: 80px;
+ padding: 20px;
+  color: #8987A1;
+}
+.footer-text{
+
+    color: #8987A1;
+}
+footer a{
+    text-decoration: none;
+}
