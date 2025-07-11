@@ -1,12 +1,4 @@
 
-/* .open-sans-normal {
-  font-family: "Open Sans", sans-serif;
-  font-optical-sizing: auto;
-  font-style: normal;
-  font-variation-settings:
-    "wdth" 100;
-} */
-
 
 .open-sans-raleway {
   font-family: "Open Sans", sans-serif;
@@ -17,12 +9,16 @@
     "wdth" 100;
 }
 
+
 /* shared style */
 .text-primary{
 
     color: #4E47FF; 
 }
-
+/* .text-pri{
+    color: #000000;
+    text-align: left;
+} */
 
 .btn-primary{
 
@@ -49,6 +45,11 @@
    border-radius: 10px;
    border: color#4E47FF;
    border: none;
+   cursor: pointer;
+}
+.btn:hover{
+
+    background-color: #0f0fdd;
 }
 
 .section-title{
@@ -56,15 +57,19 @@
     font-size:38px ;
     font-weight: bold;
     color: #252432;
-}
+} 
 
 /* nav styles */
-nav{
+.nav-im{
+  background-image:  url(../Assets/Hero-bg.png);
+   
+}
+ nav{
     display: flex;
     align-items: center;
     justify-content: space-between;
     margin: 50px 150px;
-    background-image:  url(../Assets/Hero-bg.png);
+  
     background-position: center;
     background-size: cover ;
   
@@ -98,14 +103,16 @@ nav ul{
 /* div */
 div ul{
     list-style: none;
+    margin: 0;
+    padding: 0;
 }
 .title{
     font-weight: 900px;
     font-size:55px;
     margin-bottom: 30px;
-}
+} 
 
-/* banner styles */
+/* banner styles */ 
  .banner{
     display: flex;
     justify-content: space-between;
@@ -120,27 +127,28 @@ div ul{
 .banner-greetings{
     color: #252432;
     font-size: 42px;
-    font-weight: 517;
+    font-weight: 517px;
     margin-bottom: 30px;
 }
 .banner-description{
 font-size: 24px;
 font-weight: 300;
 color: #252432;
+margin-bottom: 30px;
 
 }
 
 .wc-mini{
     width: 500px;
     border-radius: 50px;
-}
+} 
 
 /* main styles */
-main{
+ main{
 
     max-width: 1140px;
     margin: 0 auto;
-}
+} 
 
 /* joined styles */
 
@@ -150,27 +158,33 @@ main{
     text-align: center;
     margin-top: 116px;
     background-color: #e4e3f5;
+    padding: 120px 150px;
 }
 
 .about-items {
     display: flex;
     justify-content: space-around;
+    
+     gap: 20px;
     border-radius: 15px;
+    padding: 60px 20px;
    
     margin-top: 40px; 
+    margin-bottom: 40px ;
+    box-shadow: none;
 }
 
 .about-item {
     text-align: center;
-  padding: 0  20px;
+   padding: 0  40px; 
     
 }
 
 .item {
     font-size: 80px;
-    font-weight: 700; 
+  
     color: #4E47FF;
-    margin-bottom: 10px; 
+    margin:0 auto;
     
 }
 
@@ -178,14 +192,99 @@ main{
     font-size: 20px;
     color: #252432;
     margin-top: 10px;
+    font-weight: 500;
 }
 
 .section-title {
+    
     font-weight: 700; 
     font-size: 40px; 
     color: #252432;
-    margin: 0 auto;
-    max-width: 800px; 
+margin:0 auto;
+
+
+    
+}  
+
+.none{
+    font-size: 40px;
 }
 
+/* users */
+
+.section-title{
+    margin-bottom: 60px;
+}
+.user-skill{
+
+    margin-top: 140px;
+    margin-bottom: 140px;
+    margin-left: 110px;
+    margin-right: 110px;
+   border-radius: 10px;
+
+}
+.text-center{
+
+text-align: center;
+}
+.skill-container {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+.skill-title{
+
+    margin: 0 auto;
+
+}
+
+.reviewer-info{
+
+    display: flex;
+    align-items:center;
+    gap: 10px;
+   
+
+}
+.skill{
+  
+    padding: 24px;
+    border-radius: 10px;
+}
+
+
+/* form style */
+
+.resume{
+
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    flex-direction: column;
+    gap: 40px;
+
+
+}
+.section-title{
+
+    width: 40%;
+}
+.form{
+    width: 50%;
+} 
+ .form-style{
+
+    display: flex;
+    justify-content: flex-end;
+}
+ .form-two{
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between; 
+    gap: 10px;
+   width: 100%;
+   max-width: 400px;}
 
